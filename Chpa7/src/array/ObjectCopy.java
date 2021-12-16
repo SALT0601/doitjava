@@ -1,6 +1,6 @@
 package array;
 
-import com.sun.org.apache.xml.internal.utils.res.StringArrayWrapper;
+
 
 public class ObjectCopy {
 
@@ -29,7 +29,7 @@ public class ObjectCopy {
 		bookArray1[0].setBookName("나목");
 		bookArray1[0].setAuthor("박완서");
 		
-		/*for(int i = 0; i < bookArray1.length; i++) {
+		for(int i = 0; i < bookArray1.length; i++) {
 			bookArray1[i].showBookInfo();
 		}
 		
@@ -37,11 +37,11 @@ public class ObjectCopy {
 		
 		for(int i = 0; i < bookArray2.length; i++) {
 			bookArray2[i].showBookInfo();
-		}*/
+		}
 		
 		String[] strArr = {"Java", "Android", "C"};
 		
-		//for(int i = 0; i < strArr.length; i++);
+		for(int i = 0; i < strArr.length; i++);
 		
 		for(String s : strArr) {
 			System.out.println(s);
